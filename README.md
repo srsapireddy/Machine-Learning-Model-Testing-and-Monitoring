@@ -17,3 +17,13 @@ This repository contains details about ML Testing, Shadow Mode Interpretation, a
 ## Shadow Mode
 ## Monitoring Metrics with Prometheus
 ## Monitoring Logs with Kibana
+
+## References
+- On​ “Reproducibility” ​see this conference talk Sole and I gave:
+  https://www.datasciencefestival.com/video/dsf-mainstage-day-2019-soledad-and-chris-samiullah-train-in-data/
+- “Hidden technical debt in Machine learning systems” Sculley​​et al.​ (2015)
+  https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf
+- “The ML Test Score: A Rubric for ML Production Readiness and Technical DebtReduction” Breck ​et al. ​(2017)
+  https://research.google/pubs/pub46555/
+- Continuous Delivery For Machine Learning (CD4ML)https://martinfowler.com/articles/cd4ml.html●“Rules of Machine Learning” by Martin Zinkevich
+  https://developers.google.com/machine-learning/guides/rules-of-ml#top_of_pagePandas & Scikit-Learn6
