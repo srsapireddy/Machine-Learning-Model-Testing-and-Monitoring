@@ -6,6 +6,8 @@ Machine Learning in Production Pipeline </br>
 
 This repository contains details about ML Testing, Shadow Mode Interpretation, and Monitoring. </br>
 
+### Continuous Delivery for Machine Learning: https://martinfowler.com/articles/cd4ml.html
+
 ## Model Lifecycle
 ## Testing Concepts for ML Systems
 ## Unit Testing ML Systems
