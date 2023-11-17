@@ -28,4 +28,4 @@ This repository contains details about ML Testing, Shadow Mode Interpretation, a
 - Continuous Delivery For Machine Learning (CD4ML) </br>
   https://martinfowler.com/articles/cd4ml.html</br>
 - “Rules of Machine Learning” by Martin Zinkevich </br>
-  https://developers.google.com/machine-learning/guides/rules-of-ml#top_of_pagePandas & Scikit-Learn6</br>
+  https://developers.google.com/machine-learning/guides/rules-of-ml#top_of_pagePandas&Scikit-Learn6</br>
