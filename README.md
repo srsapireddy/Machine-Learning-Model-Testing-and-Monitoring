@@ -25,6 +25,7 @@ This repository contains details about ML Testing, Shadow Mode Interpretation, a
   https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf </br>
 - “The ML Test Score: A Rubric for ML Production Readiness and Technical DebtReduction” Breck ​et al. ​(2017) </br>
   https://research.google/pubs/pub46555/ </br>
-- Continuous Delivery For Machine Learning (CD4ML)https://martinfowler.com/articles/cd4ml.html</br>
+- Continuous Delivery For Machine Learning (CD4ML) </br>
+  https://martinfowler.com/articles/cd4ml.html</br>
 - “Rules of Machine Learning” by Martin Zinkevich </br>
   https://developers.google.com/machine-learning/guides/rules-of-ml#top_of_pagePandas & Scikit-Learn6</br>
