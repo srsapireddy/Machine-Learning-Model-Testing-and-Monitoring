@@ -29,10 +29,19 @@ Replacing an existing live model. Here, we see a model to predict house sale pri
 ### Deploying the first ML model
 ![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/ff43b576-85fa-4c55-b5ee-e8d9059964f3)
 Here we replace our current model with a new model which is better one. In our case, we replaced the linear regression model with a gradient-boosting algorithm. </br>
-We maximize reproducibility using Unit Testing. We also ensure the entire pipeline of the model is as expected using Integration Testing. We also determine if the model's output is expected by comparing the models in the research and production environment using Differential Testing. Finally, we assess if the value we estimated in research environment translates to the production environment using Shallow Mode. We also monitor the model using Graphana and Prometheus. 
+We maximize reproducibility using Unit Testing. We also ensure the entire pipeline of the model is as expected using Integration Testing. We also determine if the model's output is expected by comparing the models in the research and production environment using Differential Testing. Finally, we assess if the value we estimated in the research environment translates to the production environment using Shallow Mode. We also monitor the model using Graphana and Prometheus. 
 
 ### ML System Testing and Monitoring Lifecycle
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/811e4d75-b18a-4a50-b774-b44b7853803e)
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/f4953373-44e1-418e-94ab-62b755b25095)
+For the purposes of testing and monitoring, we are particularly interested in these components in red.
 
+### ML System Testing and Monitoring
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/4756899d-2af8-4ad9-9dc4-200fa9bda4ac)
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/d7a6148a-1d50-427e-b0f8-5f9c326a5165)
+
+How do these steps interact with each other? (CD4ML) </br>
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/7cb7bf5a-98da-44c9-8deb-a18b9392b648)
 
 ## Testing Concepts for ML Systems
 ## Unit Testing ML Systems
