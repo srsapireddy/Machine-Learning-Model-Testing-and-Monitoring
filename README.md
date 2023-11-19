@@ -71,7 +71,102 @@ The amount of testing depends on the reliability of the system. As the percentag
 ![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/ea8e8876-bc23-4790-a7e6-d3f9ddde3139) </br>
 ![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/58d32d13-6294-45cc-ad98-8b499d04d035)
 
-## Unit Testing ML Systems
+## Unit Testing ML Systems (Unit Testing: Production Model)
+### pytest Example
+#### File: my_module.py
+```
+def square(x):
+    return x ** 2
+```
+#### test_my_module.py
+```
+from my_module import square
+import pytest
+
+@pytest.fixture
+def input_value():
+    return 4
+
+  def test_square_gives_correct_value(input_value):
+    # When
+    subject = square(input_value)
+
+    # Then
+    assert subject == 16
+```
+#### Running test
+```
+pytest
+```
+#### Create new Test File: test_my_module_again.py
+```
+from my_module import square
+
+def test_square_return_value_type_is_int():
+    # When
+subject = square(2)
+
+# Then
+assert isinstance(subject, int)
+```
+#### Running
+```
+py_test
+```
+Here, we can see that two tests are passed using the pytest
+
+#### Create a new file: conftest.py
+```
+import pytest
+
+@pytest.fixture
+def input_value():
+    return 4
+```
+#### Create a new file: test_my_module_again.py
+
+
+#### test_my_module.py
+
+```
+from my_module import square
+
+def test_square_return_value_type_is_int(input_value):
+    # When
+subject = square(input_value)
+
+# Then
+assert isinstance(subject, int)
+```
+#### Rerun the tests
+```
+pytest
+```
+We can see that both are passed.
+By context, the fixtures in conftest will be made available to your test modules.
+
+#### Parameterization Option in pytest
+#### File: test_my_module_asgain.py
+```
+from my_module import square
+import pytest
+
+@pytest.mark.parameterize(
+    'inputs',[
+    2,3,4]
+)
+def test_square_return_value_type_is_int(inputs):
+    # When
+subject = square(inputs)
+
+# Then
+assert isinstance(subject, int)
+```
+### After running this, we can see that four tests are passed. The reason is that each of these values are turned into a test.
+
+pytest reference: https://docs.pytest.org/en/7.4.x/
+
+
 ## Docker Refresher
 ## Integration Testing ML Systems
 ## Differential Testing
