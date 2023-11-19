@@ -215,6 +215,11 @@ pytest reference: https://docs.pytest.org/en/7.4.x/ </br>
 Tox Reference: https://tox.wiki/en/4.11.3/ </br>
 Trox Reference 2: https://chromium.googlesource.com/external/github.com/numpy/numpy/+/refs/heads/maintenance/1.11.x/tox.ini
 
+## Running Unit Test Examples in Production Mode using PyTest
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/8de383ac-6e82-4bde-a6c6-341779e4f969)
+
+
+
 ## Docker Refresher
 ## Integration Testing ML Systems
 ## Differential Testing
