@@ -174,8 +174,8 @@ assert isinstance(subject, int)
 #### Output
 ![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/a450c20b-97d9-4300-9efb-2ef2908e1783)
 
-pytest reference: https://docs.pytest.org/en/7.4.x/
-
+pytest reference: https://docs.pytest.org/en/7.4.x/ </br>
+Tox Reference: https://tox.wiki/en/4.11.3/
 
 ## Docker Refresher
 ## Integration Testing ML Systems
