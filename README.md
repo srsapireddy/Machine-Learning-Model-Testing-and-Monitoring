@@ -44,6 +44,33 @@ How do these steps interact with each other? (CD4ML) </br>
 ![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/7cb7bf5a-98da-44c9-8deb-a18b9392b648)
 
 ## Testing Concepts for ML Systems
+### Building ML System Key Phases
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/04e2d3bf-79d8-40c2-a89b-6fc148cc085b)
+
+### Why Test?
+Testing is the way we show our system functionality is what we expect to it be, even as we make changes to the system.
+1. Confidence
+To analyze data provided by monitoring historic system behavior and making predictions from data about past system behavior. </br>
+2. Predicting
+We also need to care about systems' future reliability. Analyze the uncertainty incurred by any system change. </br>
+3. Functionality
+What changes are we tracking? It is not just which lines have changed; it's about the entire system functionality, from the user interface through the database.
+
+### Testing Theory
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/55731308-df7e-42ca-9da4-773bdb88b4d0)
+1. Unit Test: The smallest and simplest form of software testing. These tests assess a class or function for correctness independent of larger software systems that contain that unit.
+2. Integration Tests: Unit Tests are assembled into more significant components called Integration Tests.
+3. System Tests: Covers end-to-end functionality of the system. 
+
+The amount of testing depends on the reliability of the system. As the percentage of code-based coverage increases, we should balance the impact of any change in the system.
+#### Reference: https://sre.google/sre-book/table-of-contents/
+
+### Testing ML Systems
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/68b1520f-38ad-44ee-9a27-b464a9e0e0ac)
+#### Key Testing Principles
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/ea8e8876-bc23-4790-a7e6-d3f9ddde3139) </br>
+![image](https://github.com/srsapireddy/Machine-Learning-Model-Testing-and-Monitoring/assets/32967087/58d32d13-6294-45cc-ad98-8b499d04d035)
+
 ## Unit Testing ML Systems
 ## Docker Refresher
 ## Integration Testing ML Systems
